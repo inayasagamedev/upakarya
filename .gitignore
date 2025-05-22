@@ -1,23 +1,30 @@
-/.phpunit.cache
+# Laravel folders/files
+/vendor
 /node_modules
 /public/build
 /public/hot
 /public/storage
+/public/mix-manifest.json
 /storage/*.key
-/storage/pail
-/vendor
+/storage/*.log
 .env
-.env.backup
-.env.production
-.phpactor.json
+.env.*
 .phpunit.result.cache
+.phpunit.cache
 Homestead.json
 Homestead.yaml
+
+# Logs & misc
 npm-debug.log
 yarn-error.log
-/auth.json
+auth.json
+.DS_Store
+
+# Editor/IDE config
 /.fleet
 /.idea
-/.nova
 /.vscode
-/.zed
+/phpactor.json
+
+# Custom
+/_theme_files
